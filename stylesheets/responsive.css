@@ -100,14 +100,6 @@
     .menu_popup_item {
         font-size: 20px;
     }
-
-    .menu_popup {
-        padding: 5vw;
-    }
-
-    #thankYouMessage {
-        padding: 5vw;
-    }
 }
 
 /* Малые смартфоны (320px - 414px) */
@@ -127,14 +119,6 @@
 
     .menu_popup_item {
         font-size: 18px;
-    }
-
-    .menu_popup {
-        padding: 5vw;
-    }
-
-    #thankYouMessage {
-        padding: 5vw;
     }
 }
 
@@ -156,69 +140,46 @@
 }
 
 .menu_popup {
-    visibility: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
+    padding: 2vw;
+}
+
+.cover_index {
+    padding-top: 5vh;
+}
+
+.big_text {
+    font-size: 100px;
+    -webkit-text-stroke: 10px black;
+    text-stroke: 10px black;
+}
+
+.content {
+    padding: 5vw;
+}
+
+.content p {
+    font-size: 16px;
+}
+
+form {
+    padding: 5vw;
+}
+
+form input, form button {
+    font-size: 24px;
+    height: 48px;
+}
+
+button {
     width: 100%;
-    height: 100%;
-    backdrop-filter: blur(40px);
-    background-color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: visibility 0s, opacity 0.5s linear;
-    opacity: 0;
-}
-
-.menu_popup.show {
-    visibility: visible;
-    opacity: 1;
-}
-
-.menu_popup_item {
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-    width: max-content;
-    font-size: 30px;
-    padding: 32px;
-}
-
-.menu_popup_item:hover {
-    -webkit-text-stroke: 4px black;
-    text-stroke: 4px black;
+    padding: 12px;
+    font-size: 24px;
+    -webkit-text-stroke: 2px white;
+    text-stroke: 2px white;
 }
 
 #thankYouMessage {
-    display: none;
-    visibility: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(40px);
-    background-color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transition: visibility 0s, opacity 0.5s linear;
-    opacity: 0;
-}
-
-#thankYouMessage.show {
-    display: flex;
-    visibility: visible;
-    opacity: 1;
-}
-
-#thankYouText {
-    margin-bottom: 16px;
+    padding: 2vw;
 }
 
 .contactsMessage, .posters {
