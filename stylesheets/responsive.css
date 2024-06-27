@@ -19,8 +19,6 @@
 
     .menu_popup_item {
         font-size: 36px;
-        backdrop-filter: blur(20px);
-
     }
 }
 
@@ -143,8 +141,6 @@
 
 .menu_popup {
     padding: 2vw;
-    backdrop-filter: blur(20px);
-
 }
 
 .cover_index {
