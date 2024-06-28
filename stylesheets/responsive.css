@@ -66,4 +66,24 @@
         height: 120px;
 
     }
+
+    .contacts {
+        font-size: 16px;
+        -webkit-text-stroke: 2px black;
+        text-stroke: 2px black;
+    }
+
+    .shop {
+        font-size: 16px;
+        -webkit-text-stroke: 2px black;
+        text-stroke: 2px black;
+    }
+
+    .services {
+        font-size: 16px;
+        -webkit-text-stroke: 2px black;
+        text-stroke: 2px black;
+    }
+
+    
 }
