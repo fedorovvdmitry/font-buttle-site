@@ -22,8 +22,48 @@
     }
 
     .menu {
-        font-size: 20px;
+        font-size: 16px;
         -webkit-text-stroke: 2px black;
         text-stroke: 2px black;
+    }
+
+    .cover_index {
+        height: 100vh;
+        padding-top: 0;
+    }
+
+    .big_text {
+        font-size: 20vw;
+        -webkit-text-stroke: 8px black;
+        text-stroke: 8px black;
+    }
+
+    .menu_popup {
+
+    }
+
+    .menu_popup_item {
+        font-size: 20px;
+    }
+
+    .menu_popup_item:hover {
+        -webkit-text-stroke: 2px black;
+        text-stroke: 2px black;
+    }
+
+    .about {
+        font-size: 16px;
+        -webkit-text-stroke: 2px black;
+        text-stroke: 2px black;
+    }
+
+    .content {
+        margin-top: 16vh;
+        padding: 0 2vw 0 2vw;
+    }
+
+    .aboutImg {
+        height: 120px;
+
     }
 }
